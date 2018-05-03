@@ -1,7 +1,8 @@
-package com.example.projectstundets.smstsuapp
+package com.example.projectstundets.smstsuapp.main
 
 import android.support.v7.app.AppCompatActivity
 import android.os.Bundle
+import com.example.projectstundets.smstsuapp.R
 
 class MainActivity : AppCompatActivity() {
 

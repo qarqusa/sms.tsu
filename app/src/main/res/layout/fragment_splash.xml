@@ -1,27 +1,23 @@
 <?xml version="1.0" encoding="utf-8"?>
 <android.support.constraint.ConstraintLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
-    tools:context=".main.MainActivity"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".auth.splashScreen.SplashFragment"
+    android:background="@color/colorPrimaryDark"
     android:layout_width="match_parent"
     android:layout_height="match_parent">
 
-    <View
-        android:id="@+id/action_bar"
-        android:layout_width="match_parent"
-        android:background="@color/colorPrimary"
-        android:layout_height="?android:attr/actionBarSize">
-    </View>
-
-    <FrameLayout
-        android:id="@+id/screen_main_placeholder"
-        android:layout_width="0dp"
+    <android.support.v7.widget.AppCompatImageView
+        android:id="@+id/iv_splash_icon"
+        android:layout_width="200dp"
         android:layout_height="0dp"
+        android:src="@drawable/ic_splash_screen"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/action_bar">
-    </FrameLayout>
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintDimensionRatio="1:1"
+        app:layout_constraintVertical_bias="0.3" />
 
 </android.support.constraint.ConstraintLayout>
